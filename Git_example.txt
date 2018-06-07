@@ -6,8 +6,13 @@
   748  Jun/07 - 22:17:24 history
 Here is a regrep to delete the number date and time (  744  Jun/07 - )
 from the lines copied from the console 
-Find      \s[0-9]{3}.{11}[0-9]{2}:[0-9]{2}:[0-9]{2}\s
-Replace   
+Find          : \s[0-9]{3}.{11}[0-9]{2}:[0-9]{2}:[0-9]{2}\s
+Replace       :
 
+Replace the  carage return at the end of the Line 
+Find          : \n
+Replace       : \n
 
-
+Replace the spaces at the end of lines 
+Find          : \s+$
+Replace       :
