@@ -23,3 +23,18 @@ ls -la
 rm * -rf
 history
 
+
+
+cd C:\Users\jmall\OneDrive\Documents\Programing
+  23 cd C:\Users\jmall\OneDrive\Documents\Programing
+  24 mkdir html
+  25 cd html
+  26 echo '' > hello.html
+  27 ls
+  28 cat .\hello.html
+  
+  30 git init
+  31 git add .\hello.html
+  32 git commit -m" ** First Commit " 
+  
+  
