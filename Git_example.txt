@@ -37,4 +37,31 @@ cd C:\Users\jmall\OneDrive\Documents\Programing
   31 git add .\hello.html
   32 git commit -m" ** First Commit " 
   
+  *** Git status  and making changes
+  git status
   
+  43 echo "<h1>Hello, World!</h1>" > .\hello.html
+  44 cat .\hello.html
+
+*** create 3 files
+echo '' > a.html > b.html c.html
+echo '' > b.html
+echo '' > c.html
+
+*** Add two of the fiiles
+git add a.html
+git add b.html
+git commit -m "Changes for a and b"
+
+***  Add the third file
+git add c.html
+git commit -m "Unrelated change to c"
+
+
+10  History
+
+echo "<html>`n  <body>`n      <h1>Hello, World!</h1>`n  </body>`n</html>`n" > he
+llo.html
+
+echo "<html>`n  </head>`n  </head>`n  <body>`n      <h1>Hello, World!</h1>`n  </
+body>`n</html>`n" > hello.html
