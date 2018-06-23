@@ -1,1 +1,2 @@
 Delete Line         Ctrl Shift K
+Move to diffrent Tabs       Ctrl Tab
